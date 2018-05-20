@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    margin: 0;
+    float:left;
+}
+
+h1 {
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #ececec;
+}
+
+img {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+ul {
+    margin: 0;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;`;
+    color: #777777;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.portfolioImage {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.portfolioHeader {  position: absolute;
+  position: absolute;
+  bottom: 20px;
+  width: 30%;
+  padding: 15px;
+  margin: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+}
+
+#header {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    clear:both;
+}
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    border-top: 2px solid #4aaaa5;
+    height: 50px;
+}
+
+#mainWrapper {
+    width: 100%;
+    position: relative;
+
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    clear:both;
+
+
+}
+
+#mainContent {
+    float: left;
+    width: 100%;
+    padding: 30px;
+    margin: 0 0 40px;
+background-image: url(../images/kindajean/kindajean.png);
+    border: 1px solid #ddd;
+}
+
+
+}
+
+.portfolioContainer1 {
+
+      display:inline-block;
+      margin-top:20px;
+      margin-bottom:4px;
+      margin-left:4px;
+      margin-right:4px;
+      text-align:center;
+
+}
+
+
+.portfolioContainer2 {
+        display:inline-block;
+        margin-top:20px;
+        margin-bottom:4px;
+        margin-left:4px;
+        margin-right:4px;
+        text-align:center;
+
+}
+
+.portfolioListItem {
+  position: relative;
+  float: left;
+  width:45%;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+}
+
+.portfolioText:hover {
+      background-color:#347975;
+}
+
+.portfolioImage {
+    width:250px;
+    height:auto;
+    display:inline-block;
+}
+
+#nameLogo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+}
+
+#navigationMenu {
+    float: right;
+    margin-top: 25px;
+}
+}
+
+
+#contact-form ul {
+  margin-bottom: 5px;
+}
+
+#contact-form li {
+  margin-bottom: 2.5px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 90%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 980px) {
+#mainContent {
+        max-width: 980px;
+    }
+
+@media screen and (max-width: 980px) and (min-width: 768px) {
+body {
+background-color: red;
+}
+
+    #mainContent {
+        max-width: 768px;
+    }
+    }
+
+@media screen and (max-width: 768px) and (min-width: 640px) {
+header {
+position: absolute;
+}
+
+#mainContent {
+        max-width: 640px;
+}
